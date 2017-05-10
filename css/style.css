@@ -1,0 +1,165 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+ .italic {
+   font-style: italic;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+/*-------------------------------------------*/
+@font-face {
+  font-family: 'Samarkan Normal';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Samarkan Normal'), url('SAMARN__.woff') format('woff');
+}
+.navbar-brand{
+  font-family:'Samarkan Normal';
+  font-size: 40px;
+  color: #42337b !important;
+  padding-top: 17px !important;
+}
+header .navbar-default .navbar-nav li a{
+  color: #42337b !important;
+}
+header .navbar-default .navbar-nav{
+  padding-top: 5px;
+}
+#slider{
+  padding: 100px 0 100px 0;
+}
+#slider div{
+  color: gold;
+}
+.section-title{
+  margin-bottom: 45px !important;
+}
+.section-title h2{
+  color: purple;
+  font-weight: normal;
+}
+.post-title{
+  margin-bottom: 27px !important;
+}
+.animated.fadeInUp .row{
+  font-size: 34px;
+  /*line-height: 48px;*/
+}
+#testimonial{
+  padding-top: 0px !important;
+  padding-bottom: 10px !important;
+}
+#testimonial .testimonial-carousel{
+  width: 90%;
+  padding: 8px;
+}
+#testimonial .testimonial-carousel img{
+  padding-bottom: 16px;
+}
+#intro{
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
+}
+#feature{
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+#feature:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  opacity: 0.6;
+}
+#feature h2{
+  color: #b346b3;
+  font-weight: normal;
+}
+#feature p{
+  font-size: 17px;
+  color: white;
+}
+#service{
+  padding-top: 15px !important;
+  padding-bottom: 65px !important;
+}
+.service-item{
+  padding: 15px !important;
+  border: 1px dotted gray;
+}
+.service-item:hover{
+  cursor: pointer; 
+  cursor: hand;
+  border: 1px solid purple;
+}
+#call-to-action:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d192c;
+  opacity: 0.95;
+}
+#call-to-action p{
+  font-size: 17px;
+}
+footer{
+  padding-top: 24px !important;
+  padding-bottom: 12px !important;
+}
+footer .footer-manu{
+  padding-bottom: 10px !important;
+}
+footer p{
+  padding-bottom: 3px;
+}
+
+
+
+/* ---------------------   */
+/* ---------Blog--------   */
+
+#global-header h1{
+  color: gold;
+}
+#global-header p{
+  font-family:'Samarkan Normal';
+  font-size: 24px !important;
+  color: #150f15;
+}

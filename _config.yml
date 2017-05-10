@@ -16,9 +16,9 @@ keep_files:
 # Site settings
 title: Hamari Hindi
 subtitle: "Ek Kahani"
-url: "https://souravc4.github.io/hh_new" # the base hostname & protocol for your site
+url: "https://souravc4.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
+baseurl: "/hh_new"
 cover: ""
 logo: ""
 

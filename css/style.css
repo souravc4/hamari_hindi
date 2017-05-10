@@ -21,19 +21,22 @@
   width: 100%;
   min-height: 150px;
   background-color: white;
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px solid #8c85a5;
 }
 
 .post-area a:link, .post-area a:visited {
   font-size: 30px;
-  color: #333;
+  color: purple;
 }
 
 .post-area a:hover {
-  color: #0D0017;
+  color: #843432;
 }
 
 /*-------------------------------------------*/
+hr{
+  border-top: 1px solid #8c85a5;
+}
 @font-face {
   font-family: 'Samarkan Normal';
   font-style: normal;
@@ -154,6 +157,7 @@ footer p{
 
 /* ---------------------   */
 /* ---------Blog--------   */
+/* ---------------------   */
 
 #global-header h1{
   color: gold;
@@ -163,3 +167,24 @@ footer p{
   font-size: 24px !important;
   color: #150f15;
 }
+.post-area{
+  text-align: center;
+}
+.post-area img{
+  width: 85% !important;
+  height: 45rem;
+}
+
+
+/* ---------------------   */
+/* -------Blog Posts----   */
+/* ---------------------   */
+
+.block p{
+  text-align: center;
+}
+.post img{
+  width: 75% !important;
+  height: 45rem;
+}
+

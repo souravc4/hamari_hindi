@@ -26,7 +26,7 @@ logo: ""
 markdown: kramdown
 
 # Google analytics
-ga_tracking_id: "UA-99321649-1"
+# ga_tracking_id: "UA-99321649-1"
 
 # Category descriptions (for archive pages)
 descriptions:

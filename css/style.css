@@ -162,14 +162,17 @@ header .navbar-default .navbar-nav{
   font-size: 17px;
 }
 footer{
-  padding-top: 24px !important;
-  padding-bottom: 12px !important;
+  padding-top: 4px !important;
+  padding-bottom: 2px !important;
 }
 footer .footer-manu{
   padding-bottom: 10px !important;
 }
 footer p{
-  padding-bottom: 3px;
+  margin: 0px;
+}
+footer span{
+  font-size: 9px;
 }
 
 

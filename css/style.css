@@ -76,6 +76,23 @@ header .navbar-default .navbar-nav{
   font-size: 34px;
   /*line-height: 48px;*/
 }
+/*  for mobiles  */
+@media only screen and (max-width: 540px) {
+  #slider{
+    padding: 0px !important;
+  }
+  .animated.fadeInUp .row{
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .carimage{
+    height: 320px !important;
+  }
+  .navbar-brand{
+    padding-top: 28px !important;
+  }
+}
+/* mobile close */
 #testimonial{
   padding-top: 0px !important;
   padding-bottom: 10px !important;
@@ -175,6 +192,21 @@ footer p{
 .post-area img{
   width: 85% !important;
   height: 45rem;
+}
+/*  for mobiles  */
+@media only screen and (max-width: 540px) {
+  #global-header{
+    padding: 50px 70px 30px 0px;
+  }
+  #global-header h1{
+    font-size: 30px !important;
+  }
+  #global-header p{
+    font-size: 14px !important;
+  }
+  .post-area a{
+    font-size: 20px !important;
+  }
 }
 
 

@@ -17,14 +17,17 @@ permalink: /blog/
     </div>
   </div>
 </section>
-<div class="container">
+<div class="col-xs-9">
 {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>
-    {{ post.content | truncatewords: 7 }}
+    {{ post.content | strip_html | truncatewords: 50 }}
   </p>
 </div>
 {% endfor %}
+</div>
+<div class="col-xs-3" style="margin-top: 8px;padding: 0px">
+  <div class="fb-page" data-href="https://www.facebook.com/HamaraSahitya/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/HamaraSahitya/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HamaraSahitya/">Hamari Hindi</a></blockquote></div>
 </div>

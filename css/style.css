@@ -67,6 +67,7 @@ header .navbar-default .navbar-nav{
 .section-title h2{
   color: purple;
   font-weight: normal;
+  text-decoration: underline;
 }
 .post-title{
   margin-bottom: 27px !important;
@@ -109,6 +110,7 @@ header .navbar-default .navbar-nav{
 #feature h2{
   color: #b346b3;
   font-weight: normal;
+  text-decoration: underline;
 }
 #feature p{
   font-size: 17px;
@@ -187,4 +189,30 @@ footer p{
   width: 75% !important;
   height: 45rem;
 }
+.non-post img{
+  width: inherit !important;
+  height: inherit !important;
+}
 
+/* ---------------------   */
+/* -------Categories----   */
+/* ---------------------   */
+
+#portfolio-work .block .portfolio-contant ul img{
+  height: 23rem;
+}
+#portfolio-work .block .portfolio-contant .overly{
+  background: rgba(0, 0, 0, 0.6);
+}
+.clients-logo-img img{
+  height: 8rem;
+  width: 15rem;
+}
+
+/* ---------------------   */
+/* -------Contact-------   */
+/* ---------------------   */
+
+#contact-box .block{
+  text-align: center;
+}
